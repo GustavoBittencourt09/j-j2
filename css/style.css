@@ -1,0 +1,166 @@
+header{
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header nav div.div1{
+    display: flex;
+}
+
+
+header nav {
+    display: flex;
+;
+}
+header nav a{
+    padding: 3vw;
+}
+header  a{
+    color: white;
+}
+header h1 {
+    font-size: 2rem;
+}
+header p{
+    padding: 10px 0 0 0;
+}
+
+/*menu*/
+
+section.jej{
+    font-size: 7rem;
+    text-align: center;
+    padding: 2vw;
+}
+
+/*banner 1*/
+section.banner1 {
+    padding: 10vw 30vw;
+    background-image: url(../src/imagens/mohammed-shonar-xqLNRa5IBDY-unsplash\ 1.png);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+}
+section.banner1 p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*banner2*/
+
+
+section.banner2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 5vw;
+}
+
+
+section.banner2 div {
+    position: relative;
+    height: 750px;
+    border-radius: 15px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    letter-spacing: 2px;
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+section.banner2 div::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+
+section.banner2 h3 {
+    position: relative;
+    z-index: 1;
+}
+
+/* imagens */
+section.banner2 .div1 {
+    background-image: url("../src/imagens/alexander-mass-oGxAnC1AsnE-unsplash 3.png");
+}
+
+section.banner2 .div2 {
+    background-image: url("../src/imagens/alexander-mass-oGxAnC1AsnE-unsplash\ 4.png");
+}
+
+section.banner2 .div3 {
+    background-image: url("../src/imagens/alexander-mass-oGxAnC1AsnE-unsplash\ 5.png");
+}
+
+section.banner2 .div4 {
+    background-image: url("../src/imagens/alexander-mass-oGxAnC1AsnE-unsplash\ 6.png");
+}
+
+/*registry*/
+
+section.REGISTRY{
+    padding: 20vw 0;
+    align-items: center;
+    text-align: center;
+    background-image: url(../src/imagens/z-F56PbBDAq-c-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+section.REGISTRY h2{
+    font-size: 1.3rem;
+    color: white;
+
+}
+section.REGISTRY p{
+    padding: 0 30VW;
+    color: white;
+    padding: 30px;
+}
+section.REGISTRY button{
+    background-color: grey;
+    border: transparent;
+    height: 30px;
+
+   border-radius: 10px;
+}
+
+
+
+
+section.vestimenta {
+    padding: 15vw;
+    text-align: center;
+    background-image: url(../src/imagens/marius-muresan-sbJci09cKkk-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.vestimenta h1 {
+    font-size: 4rem;
+}
+
+footer{
+    background-color: grey;
+    padding: 10vw;
+    align-items: center;
+    text-align: center;
+}
